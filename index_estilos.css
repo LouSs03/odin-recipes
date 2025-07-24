@@ -1,5 +1,9 @@
-body{
+.principal{
     background-color: #ece1e3;
+    height:400px;
+    width: 500px;
+    margin:5% auto;
+    padding: 30px 5%;
 }
 h1
 {
@@ -9,10 +13,20 @@ font-size: 50px;
 padding:8px;
 }
 
+.lista{
+    background-color: rgb(242, 242, 242);
+    height:120px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px 2%;
+    margin: auto;
+   
+}
+
 .lista a{
     align-items: center;
     color:rgb(56, 34, 36);
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .lista li{
